@@ -10,6 +10,8 @@ public class Tortoise extends Thread {
 
     @Override
     public void run() {
-        super.run();
+        for (int index = 0; index < MILESTONES; index++) {
+            
+        }
     }
 }
